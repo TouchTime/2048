@@ -1,0 +1,43 @@
+{
+	"index.html": {
+		"resources": [
+			"css/common.css",
+			"js/update.js",
+			"js/shortcut.js",
+			"js/immersed.js"
+		],
+		"refer": [
+			"plus/accelerometer.html",
+			"plus/njs.html",
+			"plus/webview.html",
+			"plus/statistic.html"
+		]
+	},
+	"plus/accelerometer.html": {
+		"resources": [
+			"js/common.js"
+		]
+	},
+	"plus/webview_new.html": {
+		"resources": [
+			"img/ui.png"
+		]
+	},
+	"plus/webview_animation.html": {
+		"refer": [
+			"plus/webview_new.html"
+		]
+	},
+	"plus/webview.html": {
+		"refer": [
+			"plus/webview_animation.html"
+		]
+	},
+	"plus/statistic.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js"
+		]
+	}
+}
